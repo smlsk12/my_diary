@@ -1,0 +1,60 @@
+.DiaryItem {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(216, 216, 216);
+    display: flex;
+    justify-content: space-between;
+}
+
+.DiaryItem .img_section {
+    cursor: pointer;
+    min-width: 120px;
+    height: 80px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.DiaryItem .img_section_1 {
+    background-color: rgb(152, 226, 164);
+}
+
+.DiaryItem .img_section_2 {
+    background-color: rgb(224, 255, 220);
+}
+
+.DiaryItem .img_section_3 {
+    background-color: rgb(255, 232, 98);
+}
+
+.DiaryItem .img_section_4 {
+    background-color: rgb(255, 149, 123);
+}
+
+.DiaryItem .img_section_5 {
+    background-color: rgb(255, 0, 76);
+}
+
+.DiaryItem .img_section img {
+    width: 70%;
+}
+
+.DiaryItem .info_section {
+    flex-grow: 1;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.DiaryItem .info_section .date_wrapper {
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.DiaryItem .info_section .content_wrapper {
+    font-size: 18px;
+}
+
+.DiaryItem .button_section {
+    min-width: 70px;
+}

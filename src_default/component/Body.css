@@ -1,0 +1,6 @@
+/* css요소는 괄호가 없어야 한다 ~! */
+
+.body {
+    background-color: green;
+    color: yellow;
+}
